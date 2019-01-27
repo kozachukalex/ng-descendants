@@ -1,0 +1,41 @@
+header {
+    width: 80%;
+    margin: 0 auto;
+    .container{
+        position: relative;
+        background: -webkit-gradient(linear,left top,right top,from(#171b24),color-stop(50%,#3a4257),to(#26282c));
+        height: 1.4em;
+        padding: 1.3em;
+
+    }
+    .logo {
+        font-weight: bold;
+        margin-right: 5%;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: row;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            flex-flow: row;
+
+            li {
+
+                a { 
+                    padding: 1.5em;
+                    text-transform: uppercase;
+                    font-size: .8em;
+
+
+                    &:hover {
+                        background: #40589b;
+                    }
+                }
+            }
+        }
+    }
+
+}
